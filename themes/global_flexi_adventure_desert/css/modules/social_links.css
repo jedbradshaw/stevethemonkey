@@ -1,0 +1,123 @@
+.social-links.align-left a {
+	margin-right:8px;
+}
+.social-links.align-right a {
+	margin-left:0px;
+}
+.social-links.align-right > div {
+	float:right;
+}
+.social-links.align-center a {
+	margin-right:8px;
+}
+.social-links.align-center a:last-child {
+	margin-right:0;
+}
+.social-links.align-justify a { 
+	margin:0 4px;
+}
+.social-links.align-justify a:first-child { 
+	margin-left:0;
+}
+.social-links.align-justify a:last-child { 
+	margin-right:0;
+}
+.social-links {
+	margin-top:8px;
+}
+.style-icons.social-links a {
+	width:40px;
+	padding-left:40px;
+	height:40px;
+	overflow:hidden;
+}
+
+.style-text.social-links a {
+	padding-left:0;
+}
+.style-text.social-links a:before {
+	display:none;	
+}
+.social-links a {
+	margin-right:6px;
+	position:relative;
+	float:left;
+	padding-left:23px;;
+}
+.social-links a:before {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-family: "icomoon";
+	font-size: 135%;
+	position:absolute;
+	top:6px;
+	left:0px;
+	width:100%;
+	text-align:center;
+}
+.social-link-facebook {
+	background:#3b5998;
+}
+.social-links a.social-link-facebook:before {
+	content:"f";
+	font-size:170%;
+	color:#fff;
+}
+.social-link-googleplus {
+	background:#dd4b39;
+}
+.social-links a.social-link-googleplus:before {
+	content:"g";
+	color:#fff;
+	font-size: 140%;
+	top:8px;
+}
+.social-link-instagram {
+	background:#125688;
+}
+.social-links a.social-link-instagram:before {
+	content:"I";
+	color:#fff;
+	font-size: 130%;
+	top:7px;
+}
+.social-link-twitter {
+	background:#00aced;
+}
+.social-links a.social-link-twitter:before {
+	color:#fff;
+	content:"w";
+	top:7px;
+}
+.social-link-youtube {
+	background:#bb0000;
+}
+.social-links a.social-link-youtube:before {
+	color:#fff;
+	content:"Y";
+	top:7px;
+}
+.social-link-vimeo { 
+	background:#aad450;
+}
+.social-links a.social-link-vimeo:before {
+	content:"v";
+	color:#fff;
+}
+.social-link-linkedin {
+	background:#007bb5;
+}
+.social-links a.social-link-linkedin:before {
+	content:"l";
+	color:#fff;
+}
+.social-links a.social-link-pinterest {
+	background:#cb2027;
+	font-size:80%;
+}
+.social-links a.social-link-pinterest:before {
+	font-size:140%;
+	top:7px;
+	color:#fff;
+	content:"n";
+}

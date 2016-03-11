@@ -1,0 +1,13 @@
+.search-module a {
+	display:inline-block;
+}
+.search-module a:before {
+	content:"s";
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-family: "icomoon";
+	margin-right:5px;
+	margin-top:-2px;
+	margin-right:5px;
+	float:left;
+}

@@ -1,0 +1,145 @@
+.container {
+	background:#fff;
+	padding:20px;
+	overflow:hidden;
+}
+.container.parallax > .backstretch img {
+	position:absolute !important;
+	pointer-events: none;
+}
+section.row {
+	padding:0px 20px;
+	max-width:1400px;
+	margin:3px auto;
+	position:relative;
+}
+section.row.mobile-menu-row {
+	margin:0;
+}
+div.content-block.align-left {
+	float:left;
+}
+div.content-block.align-right {
+	float:right;
+}
+#small_call_to_action {
+	margin-bottom:20px;
+}
+#header {
+	background:#3F2D1F;
+}
+#header h1,#header h2,#header h3.#header h4,#header li,#header p {
+	margin:0;
+	padding:0;
+	color:#fff;
+	text-align:right !important;
+}
+#header .Button_Large a,#header .Button_Medium a,#header .Button_Small a {
+	border:2px solid #fff;
+	padding:6px 20px;
+	border-radius:0;
+	background:none;
+	font-size:26px;
+	font-family:"Roboto Slab";
+	font-weight:700;
+	color:#fff;
+}
+#header .Button_Large a:hover,#header .Button_Medium a:hover,#header .Button_Small a:hover {
+	background:rgba(255,255,255,0.1);
+	color:#F5A623;
+}
+#navsmall .Button_Large a,#navsmall .Button_Medium a,#navsmall .Button_Medium a {
+	display:block;
+	text-align:center;
+}
+#promo-area {
+	padding:30px 20px;
+	overflow:visible;
+}
+#promo-area p,#promo-area h1,#promo-area h2,#promo-area h3,#promo-area h4,#promo-area li {
+	color:#fff;
+}
+#promo-area .owl-wrapper-outer   {
+	box-shadow:5px 5px 20px rgba(0,0,0,0.5);
+}
+#above-footer p,#above-footer h1,#above-footer h2,#above-footer h3,#above-footer h4,#above-footer li,#above-footer label {
+	color:#fff;
+}
+#header .Button_Large a:after,#header .Button_Medium a:after,#header .Button_Small a:after 
+{ 
+	display:none;
+}
+#above-footer .Button_Large a:after,#above-footer .Button_Medium a:after,#above-footer .Button_Small a:after 
+{ 
+	background:#fff;
+	color:#716C52;
+	width:32px;
+}
+#above-footer .Button_Small a:after  {
+	width:25px;
+}
+#above-footer .Button_Large a:after  {
+	width:40px;
+	top:2px;
+}
+#above-footer {
+	margin-top:30px;
+}
+
+#above-footer .Button_Large a,#above-footer .Button_Medium a,#above-footer .Button_Small a {
+	border:2px solid #fff;
+	padding:6px 20px 8px;
+	border-radius:0;
+	background:none;
+	font-size:26px;
+	font-family:"Roboto Slab";
+	font-weight:700;
+	color:#fff;
+}
+#above-footer .Button_Small a {
+	font-size:22px;
+}
+#above-footer .Button_Large a {
+	font-size:28px;
+		padding-bottom:10px;
+}
+#above-footer .Button_Large a:hover,#above-footer .Button_Medium a:hover,#above-footer .Button_Small a:hover {
+	background:rgba(255,255,255,0.1);
+	color:#F5A623;
+}
+
+/* Footer */ 
+#footer p,#footer h1,#footer h2,#footer h3,#footer h4,#footer li,#footer a,#footer label {
+	color:#fff;
+	text-decoration:none;
+}
+#footer a {
+	color:#878787;
+}
+#footer a:hover {
+	color:#fff;
+}
+#footer {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#040401+0,28270e+100 */
+	background: #040401; /* Old browsers */
+	background: -moz-linear-gradient(top,  #040401 0%, #28270e 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #040401 0%,#28270e 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #040401 0%,#28270e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#040401', endColorstr='#28270e',GradientType=0 ); /* IE6-9 */
+	
+}
+#footer p {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size:19px;
+	font-weight:300;
+}
+#footer label {
+	font-size:14px;
+	color:#878787;
+}
+#footer .input {
+	background:#373737;
+	box-shadow:inset 0 0 20px rgba(0,0,0,0.4);
+	color:#fff;
+	border:none;
+}

@@ -1,0 +1,13 @@
+.checkout-link p a {
+	display:inline-block;
+}
+.checkout-link p a:before {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-family: "icomoon";
+	font-size: 140%;
+	margin-top:-2px;
+	margin-right:5px;
+	content:"4";
+	float:left;
+}

@@ -1,0 +1,90 @@
+[
+	{
+		"value":"Website title settings"
+		,"type":"title"
+	}
+	,{
+		"display_name":"Website Title"
+		,"variable_name": "site_title"
+		,"info": "Please enter the name of your website or company. This will be used to generate social sharing meta data."
+		,"type": "text"
+	}
+	,{
+		"display_name":"Append string to meta title"
+		,"variable_name": "meta_title_append"
+		,"info": "Please enter text to be automatically appended to every meta title value on the website. This could be your company name, location and slogan."
+		,"type": "text"
+	}
+	,{
+		"value":"Design"
+		,"type":"title"
+	}
+	,{
+		"display_name":"Show 'paw' in header"
+		,"variable_name": "paw"
+		,"type": "string"
+		,"default_value": "true"
+		,"options": 
+		 [
+				{ "display_value":"Yes","value":"true" }
+				,{ "display_value":"No","value":"false" }
+			]
+	}
+	,{
+		"display_name":"Upload custom logo graphic"
+		,"variable_name": "logo"
+		,"type": "image"
+	}
+	,{
+		"value":"Social media accounts"
+		,"type":"title"
+	}
+	,{
+		"display_name":"Twitter link"
+		,"variable_name": "twitter_link"
+		,"info": "Please enter your Twitter profile link. This will be used for the Twitter social media icon."
+		,"type": "text"
+	}
+	,{
+		"display_name":"YouTube link"
+		,"variable_name": "youtube_link"
+		,"info": "Please enter your YouTube link URL. This will be used for the YouTube social media icon."
+		,"type": "text"
+	}
+	,{
+		"display_name":"Facebook link"
+		,"variable_name": "facebook_link"
+		,"info": "Please enter your Facebook page link. This will be used for the Facebook social media icon."
+		,"type": "text"
+	}
+	,{
+		"display_name":"Vimeo link"
+		,"variable_name": "vimeo_link"
+		,"info": "Please enter your Vimeo page link. This will be used for the Vimeo social media icon."
+		,"type": "text"
+	}
+	,{
+		"display_name":"LinkedIn link"
+		,"variable_name": "linkedin_link"
+		,"info": "Please enter your LinkedIn page link. This will be used for the LinkedIn social media icon."
+		,"type": "text"
+	}
+	,{
+		"display_name":"Google+ link"
+		,"variable_name": "gplus_link"
+		,"info": "Please enter your Google+ page link. This will be used for the Google+ social media icon."
+		,"type": "text"
+	}
+	,{
+		"display_name":"Pinterest link"
+		,"variable_name": "pinterest_link"
+		,"info": "Please enter your Pinterest page link. This will be used for the Pinterest social media icon."
+		,"type": "text"
+	}
+	,{
+		"display_name":"Instagram link"
+		,"variable_name": "pinterest_link"
+		,"info": "Please enter your Pinterest page link. This will be used for the Pinterest social media icon."
+		,"type": "text"
+	}
+]
